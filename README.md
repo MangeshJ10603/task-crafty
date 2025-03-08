@@ -90,13 +90,16 @@ Go to [http://localhost:5173/](http://localhost:5173/) (or the port specified by
 ## 🖼️ Screenshots
 
 ### Dashboard View:
-![Dashboard](https://ibb.co/gbYZwD20)
+![dashboard_view](https://github.com/user-attachments/assets/02db76ed-46c2-4c89-afe9-c6e65b9b0811)
+
 
 ### Task Creation:
-![Task Creation](https://ibb.co/MDjN7KxL)
+![task_creation](https://github.com/user-attachments/assets/a23b6a16-bd70-423c-9f25-58256481af08)
+
 
 ### Dark Mode:
-![Dark Mode](https://ibb.co/8nGJ9ZdF)
+![dark_mode](https://github.com/user-attachments/assets/edaa8f98-9ec2-4ae5-8a17-f9693e23c60f)
+
 
 ---
 

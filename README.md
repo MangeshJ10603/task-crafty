@@ -52,40 +52,53 @@ task-crafty/
 ## 🛠️ Installation & Setup
 
 ### 1️⃣ Clone the repository
-```bash
+```sh
 git clone https://github.com/MangeshJ10603/task-crafty.git
 cd task-crafty
 ```
 
 ### 2️⃣ Install dependencies
-```bash
+```sh
 npm install
 ```
 
 ### 3️⃣ Run the development server
-```bash
+```sh
 npm run dev
 ```
 
 ### 4️⃣ Open in browser
-Go to `http://localhost:5173/` (or the port specified by Vite)
+Go to [http://localhost:5173/](http://localhost:5173/) (or the port specified by Vite)
 
 ## 📸 UI Overview
 
 ### 1️⃣ Sidebar Layout
-- Profile Section (Top left corner)  
-- Task Categories: (All Tasks, Today, Important, Planned, Assigned to Me)  
-- "Add List" button to create custom lists  
-- Task Progress Chart (Bottom left corner)  
+
+- **Profile Section** (Top left corner)  
+- **Task Categories:** (All Tasks, Today, Important, Planned, Assigned to Me)  
+- **"Add List" button** to create custom lists  
+- **Task Progress Chart** (Bottom left corner)  
 
 ### 2️⃣ Main Task Section
-- Search Bar (Top right corner)  
-- Settings and Profile Icons (Top right corner)  
-- Task Input Field with "Add Task" Button  
-- Task List with Completion Status & Star Marking for Importance  
-- Completed Tasks Section (Below the active tasks)  
+
+- **Search Bar** (Top right corner)  
+- **Settings and Profile Icons** (Top right corner)  
+- **Task Input Field** with "Add Task" Button  
+- **Task List** with Completion Status & Star Marking for Importance  
+- **Completed Tasks Section** (Below the active tasks)  
+
+## 🖼️ Screenshots
+
+### Dashboard View:
+![Dashboard](https://ibb.co/gbYZwD20)
+
+### Task Creation:
+![Task Creation](https://ibb.co/MDjN7KxL)
+
+### Dark Mode:
+![Dark Mode](https://ibb.co/8nGJ9ZdF)
 
 ---
 
-🚀 **Happy Coding!** 😊
+Enjoy using **Task Crafty**! 🚀✨
 

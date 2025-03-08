@@ -38,7 +38,7 @@ export const MOCK_USER = {
   id: '1',
   name: 'ABCD',
   email: 'user@example.com',
-  avatar: '/lovable-uploads/5df54c7f-f701-450d-9fcc-ff4f9711cf5b.png',
+  avatar: '/assets/avbar.webp',
 };
 
 // Mock tasks data

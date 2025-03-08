@@ -1,69 +1,91 @@
-# Welcome to your Lovable project
+# 📝 Task Crafty
 
-## Project info
+Task Crafty is a modern task management application designed to help users efficiently organize their daily tasks. Built with React (TypeScript) and Tailwind CSS, it provides an intuitive and clean interface for managing tasks effectively.
 
-**URL**: https://lovable.dev/projects/eee49cc2-763e-4ac3-84e1-1830a3d5397a
+## 📂 Project Structure
 
-## How can I edit this code?
+```
+task-crafty/
+│── node_modules/          # Project dependencies
+│── public/                # Static assets (e.g., icons, images)
+│── src/                   # Main source code
+│   ├── components/        # Reusable UI components
+│   ├── contexts/          # Context API for global state management
+│   ├── hooks/             # Custom React hooks
+│   ├── lib/               # Utility functions and helpers
+│   ├── pages/             # Application pages
+│   ├── App.css            # Global styles
+│   ├── App.tsx            # Root component
+│   ├── index.css          # Tailwind CSS imports
+│   ├── main.tsx           # Entry point for React app
+│   ├── vite-env.d.ts      # Vite environment configurations
+│── .gitignore             # Files to ignore in version control
+│── components.json        # Component metadata
+│── eslint.config.js       # ESLint configuration
+│── index.html             # Main HTML template
+│── package-lock.json      # Dependency lock file
+│── package.json           # Project metadata and dependencies
+│── postcss.config.js      # PostCSS configuration
+│── README.md              # Project documentation
+│── tailwind.config.ts     # Tailwind CSS configuration
+│── tsconfig.app.json      # TypeScript configuration for the app
+│── tsconfig.json          # TypeScript global configuration
+│── tsconfig.node.json     # TypeScript configuration for Node
+```
 
-There are several ways of editing your application.
+## ✨ Features
 
-**Use Lovable**
+✅ Task Management: Create, update, and delete tasks easily.  
+✅ Task Categories: Organize tasks into different categories (Today, Important, Planned, etc.).  
+✅ Dark Mode Support: Toggle between light and dark modes.  
+✅ Search Functionality: Quickly find tasks using the search bar.  
+✅ Task Completion Tracking: Track pending and completed tasks.  
+✅ Responsive UI: Optimized for all screen sizes using Tailwind CSS.  
+✅ State Management: Uses React Context API for smooth state handling.  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/eee49cc2-763e-4ac3-84e1-1830a3d5397a) and start prompting.
+## 🚀 Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Frontend:** React, TypeScript, Tailwind CSS  
+- **State Management:** Context API, Hooks  
+- **Build Tool:** Vite  
 
-**Use your preferred IDE**
+## 🛠️ Installation & Setup
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/MangeshJ10603/task-crafty.git
+cd task-crafty
+```
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 2️⃣ Install dependencies
+```bash
+npm install
+```
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### 3️⃣ Run the development server
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+### 4️⃣ Open in browser
+Go to `http://localhost:5173/` (or the port specified by Vite)
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📸 UI Overview
 
-**Use GitHub Codespaces**
+### 1️⃣ Sidebar Layout
+- Profile Section (Top left corner)  
+- Task Categories: (All Tasks, Today, Important, Planned, Assigned to Me)  
+- "Add List" button to create custom lists  
+- Task Progress Chart (Bottom left corner)  
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### 2️⃣ Main Task Section
+- Search Bar (Top right corner)  
+- Settings and Profile Icons (Top right corner)  
+- Task Input Field with "Add Task" Button  
+- Task List with Completion Status & Star Marking for Importance  
+- Completed Tasks Section (Below the active tasks)  
 
-## What technologies are used for this project?
+---
 
-This project is built with .
+🚀 **Happy Coding!** 😊
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/eee49cc2-763e-4ac3-84e1-1830a3d5397a) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)

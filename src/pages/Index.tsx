@@ -47,7 +47,7 @@ const Index = () => {
         
         <div className="relative mx-auto w-full max-w-4xl overflow-hidden rounded-xl border shadow-xl">
           <img
-            src="/lovable-uploads/8bf056d7-2a31-4526-9d96-65a3a5a040ef.png"
+            src="/assets/8bf056d7-2a31-4526-9d96-65a3a5a040ef.png"
             alt="DoIt App Interface"
             className="w-full object-cover"
           />

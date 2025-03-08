@@ -6,6 +6,7 @@ import { Input } from '@/components/ui/input';
 import { Search, Moon, Sun, Grid, Menu } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { useTheme } from '@/hooks/use-theme';
+import { QuickAddMenu } from '@/components/tasks/quick-add-menu';
 
 interface AppHeaderProps {
   toggleSidebar: () => void;
@@ -108,6 +109,8 @@ export function AppHeader({ toggleSidebar }: AppHeaderProps) {
             <Moon className="h-5 w-5" />
           )}
         </Button>
+
+        <QuickAddMenu />
 
         <Button variant="ghost" size="icon">
           <Grid className="h-5 w-5" />

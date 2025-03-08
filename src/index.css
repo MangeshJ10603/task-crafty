@@ -100,15 +100,15 @@
 
 @layer components {
   .glass-panel {
-    @apply backdrop-blur-sm bg-white/95 border border-white/20 shadow-sm;
+    @apply backdrop-blur-sm bg-white/95 dark:bg-black/60 border border-white/20 dark:border-white/10 shadow-sm;
   }
   
   .task-card {
-    @apply border border-border rounded-md p-4 mb-2 hover:shadow-sm transition-all bg-white;
+    @apply border border-border rounded-md p-4 mb-2 hover:shadow-sm transition-all bg-white dark:bg-transparent dark:hover:bg-secondary/20;
   }
   
   .task-card-active {
-    @apply border-primary/30 bg-secondary;
+    @apply border-primary/30 bg-secondary dark:bg-secondary/30;
   }
   
   .sidebar-item {
@@ -116,7 +116,7 @@
   }
   
   .sidebar-item-active {
-    @apply bg-secondary text-primary;
+    @apply bg-secondary dark:bg-secondary/50 text-primary;
   }
   
   .btn-primary {
